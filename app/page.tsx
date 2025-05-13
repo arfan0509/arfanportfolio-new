@@ -90,7 +90,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="relative bg-black text-white min-h-screen">
+    <div className="relative bg-black text-white min-h-screen overflow-x-hidden">
       {/* Progress Bar */}
       <motion.div
         className="fixed left-0 top-0 bottom-0 w-1 bg-amber-500 origin-top z-50"
@@ -197,11 +197,11 @@ export default function HomePage() {
       <section
         id="home"
         ref={homeRef}
-        className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16"
+        className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16 overflow-x-hidden"
       >
         <ParticleBackground />
 
-        <div className="container mx-auto px-4 max-w-full relative z-10">
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <motion.h1
               initial={{ opacity: 0 }}
@@ -312,9 +312,9 @@ export default function HomePage() {
       <section
         id="about"
         ref={aboutRef}
-        className="py-16 md:py-20 min-h-screen flex items-center"
+        className="py-16 md:py-20 min-h-screen flex items-center overflow-x-hidden"
       >
-        <div className="container mx-auto px-4 max-w-full">
+        <div className="container mx-auto px-4">
           <SectionHeader title="About Me" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mt-12 md:mt-16 w-full">
