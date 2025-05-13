@@ -350,7 +350,7 @@ export default function HomePage() {
                 phrases={[
                   "I began my journey in web development with a focus on frontend development using React and Laravel. Over time, I also deepened my expertise in backend development, particularly with Node.js. My passion for technology continuously drives me to learn and grow, creating digital solutions that are not only functional but also efficient and elegant.",
 
-                  "Sometimes I push rank in Mobile Legends or Honor of Kings, and other times I enjoy hunting monsters with Switch Axe in Monster Hunter. When boredom hits, Call of Duty Mobile is my go-to escape. For me, gaming isn't just entertainment—it's a fun way to sharpen strategic thinking, boost reaction time, and strengthen creative problem-solving skills.",
+                  "Sometimes I push rank in Mobile Legends or Honor of Kings, and other times I enjoy hunting monsters with Switch Axe in Monster Hunter World. When boredom hits, Call of Duty Mobile is my go-to escape. For me, gaming isn't just entertainment—it's a fun way to sharpen strategic thinking, boost reaction time, and strengthen creative problem-solving skills.",
 
                   "My ideal weekend? A refreshing swim and food adventure. Exploring flavors and vibes is just as exciting to me as exploring new tools or frameworks. Swimming clears my mind and gives me balance after long hours at my desk, while trying out new food introduces me to different cultures and ways of seeing the world. It's my perfect balance to coding.",
                 ]}
