@@ -201,7 +201,7 @@ export default function HomePage() {
       >
         <ParticleBackground />
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 max-w-full relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <motion.h1
               initial={{ opacity: 0 }}
@@ -314,10 +314,10 @@ export default function HomePage() {
         ref={aboutRef}
         className="py-16 md:py-20 min-h-screen flex items-center"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-full">
           <SectionHeader title="About Me" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mt-12 md:mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mt-12 md:mt-16 w-full">
             {/* Image section remains unchanged */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
