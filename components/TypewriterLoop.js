@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 const TypewriterLoop = ({
   phrases,
   typingSpeed = 10,
-  deletingSpeed = 5,
+  deletingSpeed = 1,
   pauseDuration = 8000,
   className = "",
 }) => {

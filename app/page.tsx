@@ -355,7 +355,7 @@ export default function HomePage() {
                   "My ideal weekend? A refreshing swim and food adventure. Exploring flavors and vibes is just as exciting to me as exploring new tools or frameworks. Swimming clears my mind and gives me balance after long hours at my desk, while trying out new food introduces me to different cultures and ways of seeing the world. It's my perfect balance to coding.",
                 ]}
                 typingSpeed={10} // Faster typing speed
-                deletingSpeed={5} // Faster deleting speed
+                deletingSpeed={1} // Faster deleting speed
                 pauseDuration={8000} // 3 second pause between phrases
                 className="text-gray-300 mb-6 md:mb-4 min-h-[220px] md:min-h-[120px]" // Adjusted height for content
               />
