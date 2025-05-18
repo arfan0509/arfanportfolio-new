@@ -24,7 +24,7 @@ export default function ProjectsComponent() {
       ],
       links: {
         live: "https://medipaws-expert.my.id/",
-        github: "https://github.com/username/medipaws",
+        github: "https://github.com/arfan0509/medipaws-expertsystem.git",
       },
     },
     {
@@ -177,8 +177,12 @@ export default function ProjectsComponent() {
             </div>
 
             <div className="p-4 sm:p-6">
-              <h3 className="text-lg sm:text-xl font-bold mb-2">{project.title}</h3>
-              <p className="text-gray-400 text-sm sm:text-base mb-4">{project.description}</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2">
+                {project.title}
+              </h3>
+              <p className="text-gray-400 text-sm sm:text-base mb-4">
+                {project.description}
+              </p>
 
               <div className="flex flex-wrap gap-1.5 sm:gap-2">
                 {project.technologies.map((tech) => (
